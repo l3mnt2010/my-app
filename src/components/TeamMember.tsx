@@ -14,7 +14,7 @@ export const logo = [facebook, instargram, twitter, youtube];
 
 const TeamMember: React.FC<Team> = (props) => {
   return (
-    <div className="w-full shadow-2xl mt-5">
+    <div className="w-full rounded-lg shadow-2xl mt-5">
       <img className="w-1/3 mx-auto" src={props.avatar} alt="this is avatar" />
       <div className="p-3">
         <h1 className="w-full text-center uppercase font-bold text-xl">

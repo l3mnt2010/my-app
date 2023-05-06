@@ -22,13 +22,13 @@ const blog = [
 
 const OurRecentBlog = () => {
   return (
-    <div className="mx-10 my-10 p-3 ">
+    <div className="w-5/6 mx-auto my-10 p-3 ">
       <h1 className="w-full text-center font-bold text-xl">Our recent blog</h1>
       <p className="w-full text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
         ante velit vitae.
       </p>
-      <div className="sm:flex w-2/3 mx-auto gap-20">
+      <div className="sm:flex w-5/6 mx-auto gap-20">
         {blog.map((itm) => (
           <BlogPost img={itm.img} title={itm.title} text={about} />
         ))}

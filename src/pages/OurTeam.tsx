@@ -24,7 +24,7 @@ const team = [
 ];
 const OurTeam = () => {
   return (
-    <div className="w-full mt-64 px-10">
+    <div className="w-full mt-80 px-10">
       <h1 className="uppercase w-full text-center font-bold text-xl mb-3">
         Our reative team
       </h1>
