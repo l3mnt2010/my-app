@@ -25,9 +25,9 @@ const review = [
 ];
 const DowLoadApp = () => {
   return (
-    <div className="sm:w-2/3 sm:mx-auto sm:flex sm:shadow-xl">
+    <div className="sm:w-5/6 sm:mx-auto sm:flex sm:shadow-xl">
       <div className="w-full flex flex-col gap-10 sm:w-2/3 sm:mx-auto">
-        <h1 className="font-bold text-xl mx-8">Download App Now</h1>
+        <h1 className="font-bold text-2xl mx-8">Download App Now</h1>
         <p className="mx-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
           ante velit vitae. Est tellus vitae, nullam lobortis enim.
@@ -36,7 +36,7 @@ const DowLoadApp = () => {
           <img className="w-1/3" src={topping1} alt="" />
           <img className="w-1/3" src={topping2} alt="" />
         </div>
-        <div className="mx-8 gap-3 flex justify-around">
+        <div className="mx-8 gap-3 flex justify-around sm:mx-7">
           {review.map((itm) => (
             <Reactangle
               number={itm.number}

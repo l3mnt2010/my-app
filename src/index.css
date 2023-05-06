@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 * {
-  transition: 1s all ease-in-out;
+  font-family: "Hind Siliguri", sans-serif;
 }

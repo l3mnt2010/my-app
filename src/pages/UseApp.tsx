@@ -4,11 +4,11 @@ import videofill from "../assets/images/video-fill.png";
 
 const UseApp = () => {
   return (
-    <div className="relative top-20 w-full bg-blue-500 py-10 h-1/2 sm:h-96 sm:bg-white sm:shadow-sm sm:w-full mx-auto">
-      <h1 className="w-full text-center font-bold text-xl">
+    <div className="relative top-20 w-full bg-BG_Basic py-10 h-1/2 sm:h-96 sm:shadow-sm sm:w-full mx-auto mb-10">
+      <h1 className="w-full text-center font-bold text-xl sm:text-3xl text-white">
         How to use the app perfectly
       </h1>
-      <p className="w-full text-center p-5 sm:mt-5">
+      <p className="w-full text-center p-5 sm:mt-5 text-white">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
         ante velit vitae.
       </p>
@@ -24,7 +24,7 @@ const UseApp = () => {
           alt="đây là bộ ảnh"
         /> */}
         <img
-          className="absolute left-48 w-8 top-20 z-50 sm:hidden"
+          className="absolute left-48 w-8 top-20 z-10 sm:hidden"
           src={videofill}
           alt="đây là bộ ảnh"
         />
