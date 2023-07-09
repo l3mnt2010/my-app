@@ -38,3 +38,4 @@
 // export default store;
 
 // chúng ta cần phải map duwxw liệu của reddux và reacjs bằng connect
+export {};
